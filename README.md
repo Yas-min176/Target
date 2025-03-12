@@ -3,20 +3,22 @@
 Bem-vindo ao meu projeto teste! Este repositório foi estruturado para conter múltiplos projetos independentes, cada um com seu próprio ponto de entrada (`Main`). Além disso, desenvolvi este projeto utilizando **.NET 9.0** e **Visual Studio Code**. A estrutura foi organizada para facilitar a execução de diferentes programas de forma isolada, promovendo melhor controle e manutenção do código.
 
 ## Sobre Mim
-Me chamo Yasmin e sou técnica em mecatrônica pelo ENIAC e possuo um ano de experiência na área de engenharia no FabLab ENIAC, trabalhei como professora maker e trainee de TI simultaneamente, após passar no processo seletivo da Vivo, foquei somente no estágio e hoje atuo como Analista de Sistemas JR na área de Performance da Vivo.
+Me chamo Yasmin e sou técnica em mecatrônica pelo ENIAC e possuo um ano de experiência na área de engenharia no FabLab ENIAC, trabalhei como professora maker e trainee de TI simultaneamente, mas após passar no processo seletivo da Vivo, foquei somente no estágio e hoje atuo como Analista de Sistemas JR na área de Infraestrura e Cloud, especificamente no time de Capacidade e Performance da Vivo.
+
 Através da participação em diversos campeonatos de robótica, garantindo 3 prêmios nacionais para a equipe, estágios e outros, desenvolvi habilidades de comunicação, resiliência e pro atividade. Tenho interesse em atuar em um cargo com maior foco em desenvolvimento e venho estudando sobre inovações e atuações nessa área.
+
 Além de tudo isso, adoro animais, tenho 2 gatinhos e 1 cachorro salsicha, jogo LoL e outros games de mundo aberto nas horas vagas, gosto de desenhar e ler.
 
 ## Estrutura do Projeto
 ```
-/SoluçãoPrincipal
-  /Program1
-    - Program1.cs
-    - Program1.csproj
-  /Program2
-    - Program2.cs
-    - Program2.csproj
-  /Compartilhado
+/Target
+  /Fibonacci
+    - Fibonacci.cs
+    - Fibonacci.csproj
+  /Inversor
+    - Inversor.cs
+    - Inversor.csproj
+  /Dados
     - dados.json
 ```
 
@@ -26,14 +28,14 @@ Para executar cada projeto individualmente, utilize os seguintes comandos no ter
 ### 1. Entrar no Diretório do Projeto
 Use o comando `cd` para navegar entre as pastas:
 
-- Para acessar o projeto **Program1**:
+- Para acessar o projeto **Fibonacci**:
 ```bash
-cd Program1
+cd Fibonacci
 ```
 
-- Para acessar o projeto **Program2**:
+- Para acessar o projeto **Inversor**:
 ```bash
-cd Program2
+cd Inversor
 ```
 
 ### 2. Executar o Projeto
